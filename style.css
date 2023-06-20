@@ -292,6 +292,7 @@ hr{
     border-radius: 5px;
     box-shadow: 0 10px 20px 3px #00968814;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .testimonial-col p{
@@ -308,4 +309,41 @@ hr{
     width: 40px;
     margin-right: 20px;
     border-radius: 3px;
+}
+
+.testimonial-col :hover{
+    transform: translateY(-7px);
+}
+
+/*--footer--*/
+
+#footer{
+    padding: 100px 20px 0;
+    background: #00968814;
+}
+
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-right{
+    text-align: right;
+}
+
+.footer-row h1{
+    margin: 10px 0;
+}
+
+.footer-row p{
+    line-height: 35px;
 }
